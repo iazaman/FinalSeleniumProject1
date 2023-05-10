@@ -1,0 +1,369 @@
+20:17:24.596 [main] INFO  us.piit.LoginTest - enter login page
+20:17:24.881 [main] INFO  us.piit.LoginTest - Correct username entered
+20:17:25.069 [main] INFO  us.piit.LoginTest - Correct password entered
+20:17:25.216 [main] INFO  us.piit.LoginTest - Click on login Success
+20:17:26.649 [main] INFO  us.piit.LoginTest - User login success
+20:17:26.970 [main] INFO  us.piit.LoginTest - Click on logout button success
+20:17:30.172 [main] INFO  us.piit.LoginTest - Forgot password button is displayed
+20:18:40.644 [main] INFO  us.piit.LoginTest - enter login page
+20:18:40.860 [main] INFO  us.piit.LoginTest - Correct username entered
+20:18:41.042 [main] INFO  us.piit.LoginTest - Correct password entered
+20:18:41.166 [main] INFO  us.piit.LoginTest - Click on login Success
+20:18:41.871 [main] INFO  us.piit.LoginTest - Validate error success
+20:18:49.133 [main] INFO  us.piit.LoginTest - enter login page
+20:18:49.257 [main] INFO  us.piit.LoginTest - Correct username entered
+20:18:49.435 [main] INFO  us.piit.LoginTest - Correct password entered
+20:18:49.596 [main] INFO  us.piit.LoginTest - Click on login Success
+20:18:50.024 [main] INFO  us.piit.LoginTest - Validate error success
+20:18:57.363 [main] INFO  us.piit.LoginTest - enter login page
+20:18:57.583 [main] INFO  us.piit.LoginTest - Correct username entered
+20:18:57.782 [main] INFO  us.piit.LoginTest - Correct password entered
+20:18:57.920 [main] INFO  us.piit.LoginTest - Click on login Success
+20:18:59.483 [main] INFO  us.piit.LoginTest - User login success
+20:19:06.918 [main] INFO  us.piit.LoginTest - enter login page
+20:19:07.138 [main] INFO  us.piit.LoginTest - Correct username entered
+20:19:07.289 [main] INFO  us.piit.LoginTest - Correct password entered
+20:19:07.429 [main] INFO  us.piit.LoginTest - Click on login Success
+20:19:07.835 [main] INFO  us.piit.LoginTest - Validate error success
+22:20:30.361 [main] INFO  us.piit.LoginTest - enter login page
+22:20:30.569 [main] INFO  us.piit.LoginTest - Correct username entered
+22:20:30.740 [main] INFO  us.piit.LoginTest - Correct password entered
+22:20:30.869 [main] INFO  us.piit.LoginTest - Click on login Success
+22:20:31.653 [main] INFO  us.piit.LoginTest - Validate error success
+22:20:39.736 [main] INFO  us.piit.LoginTest - enter login page
+22:20:39.891 [main] INFO  us.piit.LoginTest - Correct username entered
+22:20:40.041 [main] INFO  us.piit.LoginTest - Correct password entered
+22:20:40.199 [main] INFO  us.piit.LoginTest - Click on login Success
+22:20:40.546 [main] INFO  us.piit.LoginTest - Validate error success
+22:20:48.145 [main] INFO  us.piit.LoginTest - enter login page
+22:20:48.358 [main] INFO  us.piit.LoginTest - Correct username entered
+22:20:48.503 [main] INFO  us.piit.LoginTest - Correct password entered
+22:20:48.641 [main] INFO  us.piit.LoginTest - Click on login Success
+22:20:49.907 [main] INFO  us.piit.LoginTest - User login success
+22:20:57.474 [main] INFO  us.piit.LoginTest - enter login page
+22:20:57.705 [main] INFO  us.piit.LoginTest - Correct username entered
+22:20:57.811 [main] INFO  us.piit.LoginTest - Correct password entered
+22:20:57.927 [main] INFO  us.piit.LoginTest - Click on login Success
+22:20:58.321 [main] INFO  us.piit.LoginTest - Validate error success
+22:26:04.239 [main] INFO  us.piit.LoginTest - enter login page
+22:26:04.436 [main] INFO  us.piit.LoginTest - Correct username entered
+22:26:04.620 [main] INFO  us.piit.LoginTest - Correct password entered
+22:26:04.750 [main] INFO  us.piit.LoginTest - Click on login Success
+22:26:17.641 [main] INFO  us.piit.LoginTest - enter login page
+22:26:17.879 [main] INFO  us.piit.LoginTest - Correct username entered
+22:26:18.071 [main] INFO  us.piit.LoginTest - Correct password entered
+22:26:18.214 [main] INFO  us.piit.LoginTest - Click on login Success
+22:26:19.531 [main] INFO  us.piit.LoginTest - User login success
+22:57:04.007 [main] INFO  us.piit.LoginTest - enter login page
+22:57:04.418 [main] INFO  us.piit.LoginTest - Correct username entered
+22:57:04.927 [main] INFO  us.piit.LoginTest - Correct password entered
+22:57:05.334 [main] INFO  us.piit.LoginTest - Click on login Success
+22:57:05.857 [main] INFO  us.piit.LoginTest - Validate error success
+22:57:18.238 [main] INFO  us.piit.LoginTest - enter login page
+22:57:18.703 [main] INFO  us.piit.LoginTest - Correct username entered
+22:57:19.004 [main] INFO  us.piit.LoginTest - Correct password entered
+22:57:19.316 [main] INFO  us.piit.LoginTest - Click on login Success
+22:57:20.084 [main] INFO  us.piit.LoginTest - Validate error success
+22:57:31.791 [main] INFO  us.piit.LoginTest - enter login page
+22:57:32.217 [main] INFO  us.piit.LoginTest - Correct username entered
+22:57:32.577 [main] INFO  us.piit.LoginTest - Correct password entered
+22:57:32.838 [main] INFO  us.piit.LoginTest - Click on login Success
+22:57:34.237 [main] INFO  us.piit.LoginTest - User login success
+22:57:47.015 [main] INFO  us.piit.LoginTest - enter login page
+22:57:47.418 [main] INFO  us.piit.LoginTest - Correct username entered
+22:57:47.962 [main] INFO  us.piit.LoginTest - Correct password entered
+22:57:48.341 [main] INFO  us.piit.LoginTest - Click on login Success
+22:57:48.825 [main] INFO  us.piit.LoginTest - Validate error success
+23:01:13.157 [main] INFO  us.piit.LoginTest - enter login page
+23:01:13.661 [main] INFO  us.piit.LoginTest - Correct username entered
+23:01:13.966 [main] INFO  us.piit.LoginTest - Correct password entered
+23:01:14.279 [main] INFO  us.piit.LoginTest - Click on login Success
+23:01:15.081 [main] INFO  us.piit.LoginTest - Validate error success
+23:01:34.863 [main] INFO  us.piit.LoginTest - enter login page
+23:01:35.150 [main] INFO  us.piit.LoginTest - Correct username entered
+23:01:35.579 [main] INFO  us.piit.LoginTest - Correct password entered
+23:01:36.086 [main] INFO  us.piit.LoginTest - Click on login Success
+23:01:36.586 [main] INFO  us.piit.LoginTest - Validate error success
+23:01:48.481 [main] INFO  us.piit.LoginTest - enter login page
+23:01:48.901 [main] INFO  us.piit.LoginTest - Correct username entered
+23:01:49.293 [main] INFO  us.piit.LoginTest - Correct password entered
+23:01:49.706 [main] INFO  us.piit.LoginTest - Click on login Success
+23:01:51.046 [main] INFO  us.piit.LoginTest - User login success
+23:02:02.203 [main] INFO  us.piit.LoginTest - enter login page
+23:02:02.796 [main] INFO  us.piit.LoginTest - Correct username entered
+23:02:03.039 [main] INFO  us.piit.LoginTest - Correct password entered
+23:02:03.432 [main] INFO  us.piit.LoginTest - Click on login Success
+23:02:03.927 [main] INFO  us.piit.LoginTest - Validate error success
+23:02:40.911 [main] INFO  us.piit.LoginTest - enter login page
+23:02:41.416 [main] INFO  us.piit.LoginTest - Correct username entered
+23:02:41.748 [main] INFO  us.piit.LoginTest - Correct password entered
+23:02:42.128 [main] INFO  us.piit.LoginTest - Click on login Success
+23:02:43.059 [main] INFO  us.piit.LoginTest - Validate error success
+23:06:25.374 [main] INFO  us.piit.LoginTest - enter login page
+23:06:25.782 [main] INFO  us.piit.LoginTest - Correct username entered
+23:06:26.298 [main] INFO  us.piit.LoginTest - Correct password entered
+23:06:26.812 [main] INFO  us.piit.LoginTest - Click on login Success
+23:06:28.035 [main] INFO  us.piit.LoginTest - User login success
+23:06:40.020 [main] INFO  us.piit.LoginTest - enter login page
+23:06:40.528 [main] INFO  us.piit.LoginTest - Correct username entered
+23:06:40.857 [main] INFO  us.piit.LoginTest - Correct password entered
+23:06:41.655 [main] INFO  us.piit.LoginTest - Click on login Success
+23:06:42.452 [main] INFO  us.piit.LoginTest - Validate error success
+23:07:09.614 [main] INFO  us.piit.LoginTest - enter login page
+23:07:10.065 [main] INFO  us.piit.LoginTest - Correct username entered
+23:07:10.503 [main] INFO  us.piit.LoginTest - Correct password entered
+23:07:10.947 [main] INFO  us.piit.LoginTest - Click on login Success
+23:07:11.867 [main] INFO  us.piit.LoginTest - Validate error success
+23:07:23.949 [main] INFO  us.piit.LoginTest - enter login page
+23:07:24.257 [main] INFO  us.piit.LoginTest - Correct username entered
+23:07:24.574 [main] INFO  us.piit.LoginTest - Correct password entered
+23:07:25.485 [main] INFO  us.piit.LoginTest - Click on login Success
+23:07:26.004 [main] INFO  us.piit.LoginTest - Validate error success
+23:08:00.197 [main] INFO  us.piit.LoginTest - enter login page
+23:08:00.606 [main] INFO  us.piit.LoginTest - Correct username entered
+23:08:01.312 [main] INFO  us.piit.LoginTest - Correct password entered
+23:08:01.734 [main] INFO  us.piit.LoginTest - Click on login Success
+23:08:03.021 [main] INFO  us.piit.LoginTest - User login success
+23:08:17.096 [main] INFO  us.piit.LoginTest - enter login page
+23:08:17.578 [main] INFO  us.piit.LoginTest - Correct username entered
+23:08:18.018 [main] INFO  us.piit.LoginTest - Correct password entered
+23:08:18.737 [main] INFO  us.piit.LoginTest - Click on login Success
+23:08:19.345 [main] INFO  us.piit.LoginTest - Validate error success
+23:18:27.520 [main] INFO  us.piit.LoginTest - enter login page
+23:18:27.931 [main] INFO  us.piit.LoginTest - Correct username entered
+23:18:28.537 [main] INFO  us.piit.LoginTest - Correct password entered
+23:18:28.936 [main] INFO  us.piit.LoginTest - Click on login Success
+23:18:29.547 [main] INFO  us.piit.LoginTest - Validate error success
+23:18:41.031 [main] INFO  us.piit.LoginTest - enter login page
+23:18:41.438 [main] INFO  us.piit.LoginTest - Correct username entered
+23:18:41.747 [main] INFO  us.piit.LoginTest - Correct password entered
+23:18:42.158 [main] INFO  us.piit.LoginTest - Click on login Success
+23:18:42.763 [main] INFO  us.piit.LoginTest - Validate error success
+23:18:56.798 [main] INFO  us.piit.LoginTest - enter login page
+23:18:57.419 [main] INFO  us.piit.LoginTest - Correct username entered
+23:18:58.133 [main] INFO  us.piit.LoginTest - Correct password entered
+23:18:58.550 [main] INFO  us.piit.LoginTest - Click on login Success
+23:19:00.693 [main] INFO  us.piit.LoginTest - User login success
+23:19:20.252 [main] INFO  us.piit.LoginTest - enter login page
+23:19:20.761 [main] INFO  us.piit.LoginTest - Correct username entered
+23:19:21.026 [main] INFO  us.piit.LoginTest - Correct password entered
+23:19:21.379 [main] INFO  us.piit.LoginTest - Click on login Success
+23:19:21.889 [main] INFO  us.piit.LoginTest - Validate error success
+23:20:05.215 [main] INFO  us.piit.LoginTest - enter login page
+23:20:05.824 [main] INFO  us.piit.LoginTest - Correct username entered
+23:20:06.332 [main] INFO  us.piit.LoginTest - Correct password entered
+23:20:06.764 [main] INFO  us.piit.LoginTest - Click on login Success
+23:20:07.754 [main] INFO  us.piit.LoginTest - Validate error success
+23:22:35.808 [main] INFO  us.piit.LoginTest - enter login page
+23:22:36.074 [main] INFO  us.piit.LoginTest - Correct username entered
+23:22:36.298 [main] INFO  us.piit.LoginTest - Correct password entered
+23:22:36.449 [main] INFO  us.piit.LoginTest - Click on login Success
+23:22:37.239 [main] INFO  us.piit.LoginTest - Validate error success
+23:22:45.907 [main] INFO  us.piit.LoginTest - enter login page
+23:22:46.100 [main] INFO  us.piit.LoginTest - Correct username entered
+23:22:46.280 [main] INFO  us.piit.LoginTest - Correct password entered
+23:22:46.418 [main] INFO  us.piit.LoginTest - Click on login Success
+23:22:46.766 [main] INFO  us.piit.LoginTest - Validate error success
+23:22:55.083 [main] INFO  us.piit.LoginTest - enter login page
+23:22:55.302 [main] INFO  us.piit.LoginTest - Correct username entered
+23:22:55.479 [main] INFO  us.piit.LoginTest - Correct password entered
+23:22:55.633 [main] INFO  us.piit.LoginTest - Click on login Success
+23:22:56.871 [main] INFO  us.piit.LoginTest - User login success
+23:23:05.102 [main] INFO  us.piit.LoginTest - enter login page
+23:23:05.291 [main] INFO  us.piit.LoginTest - Correct username entered
+23:23:05.436 [main] INFO  us.piit.LoginTest - Correct password entered
+23:23:05.573 [main] INFO  us.piit.LoginTest - Click on login Success
+23:23:05.911 [main] INFO  us.piit.LoginTest - Validate error success
+23:23:35.446 [main] INFO  us.piit.LoginTest - enter login page
+23:23:35.951 [main] INFO  us.piit.LoginTest - Correct username entered
+23:23:36.418 [main] INFO  us.piit.LoginTest - Correct password entered
+23:23:36.766 [main] INFO  us.piit.LoginTest - Click on login Success
+23:23:37.782 [main] INFO  us.piit.LoginTest - Validate error success
+23:23:50.968 [main] INFO  us.piit.LoginTest - enter login page
+23:23:51.274 [main] INFO  us.piit.LoginTest - Correct username entered
+23:23:51.810 [main] INFO  us.piit.LoginTest - Correct password entered
+23:23:52.254 [main] INFO  us.piit.LoginTest - Click on login Success
+23:23:52.844 [main] INFO  us.piit.LoginTest - Validate error success
+23:24:04.915 [main] INFO  us.piit.LoginTest - enter login page
+23:24:05.235 [main] INFO  us.piit.LoginTest - Correct username entered
+23:24:05.547 [main] INFO  us.piit.LoginTest - Correct password entered
+23:24:05.952 [main] INFO  us.piit.LoginTest - Click on login Success
+23:24:07.214 [main] INFO  us.piit.LoginTest - User login success
+23:35:42.500 [main] INFO  us.piit.LoginTest - enter login page
+23:35:43.003 [main] INFO  us.piit.LoginTest - Correct username entered
+23:35:43.412 [main] INFO  us.piit.LoginTest - Correct password entered
+23:35:43.929 [main] INFO  us.piit.LoginTest - Click on login Success
+23:35:44.660 [main] INFO  us.piit.LoginTest - Validate error success
+23:35:57.136 [main] INFO  us.piit.LoginTest - enter login page
+23:35:57.544 [main] INFO  us.piit.LoginTest - Correct username entered
+23:35:58.164 [main] INFO  us.piit.LoginTest - Correct password entered
+23:35:58.676 [main] INFO  us.piit.LoginTest - Click on login Success
+23:35:59.304 [main] INFO  us.piit.LoginTest - Validate error success
+23:36:11.995 [main] INFO  us.piit.LoginTest - enter login page
+23:36:12.437 [main] INFO  us.piit.LoginTest - Correct username entered
+23:36:12.704 [main] INFO  us.piit.LoginTest - Correct password entered
+23:36:13.110 [main] INFO  us.piit.LoginTest - Click on login Success
+23:36:14.542 [main] INFO  us.piit.LoginTest - User login success
+23:36:29.011 [main] INFO  us.piit.LoginTest - enter login page
+23:36:29.536 [main] INFO  us.piit.LoginTest - Correct username entered
+23:36:29.813 [main] INFO  us.piit.LoginTest - Correct password entered
+23:36:30.131 [main] INFO  us.piit.LoginTest - Click on login Success
+23:36:30.588 [main] INFO  us.piit.LoginTest - Validate error success
+23:58:37.548 [main] INFO  us.piit.LoginTest - enter login page
+23:58:37.938 [main] INFO  us.piit.LoginTest - Correct username entered
+23:58:38.270 [main] INFO  us.piit.LoginTest - Correct password entered
+23:58:38.666 [main] INFO  us.piit.LoginTest - Click on login Success
+23:58:39.484 [main] INFO  us.piit.LoginTest - Validate error success
+23:58:51.641 [main] INFO  us.piit.LoginTest - enter login page
+23:58:52.017 [main] INFO  us.piit.LoginTest - Correct username entered
+23:58:52.345 [main] INFO  us.piit.LoginTest - Correct password entered
+23:58:52.740 [main] INFO  us.piit.LoginTest - Click on login Success
+23:58:53.315 [main] INFO  us.piit.LoginTest - Validate error success
+23:59:04.762 [main] INFO  us.piit.LoginTest - enter login page
+23:59:05.199 [main] INFO  us.piit.LoginTest - Correct username entered
+23:59:05.561 [main] INFO  us.piit.LoginTest - Correct password entered
+23:59:05.989 [main] INFO  us.piit.LoginTest - Click on login Success
+23:59:07.670 [main] INFO  us.piit.LoginTest - User login success
+23:59:19.146 [main] INFO  us.piit.LoginTest - enter login page
+23:59:19.590 [main] INFO  us.piit.LoginTest - Correct username entered
+23:59:19.830 [main] INFO  us.piit.LoginTest - Correct password entered
+23:59:20.171 [main] INFO  us.piit.LoginTest - Click on login Success
+23:59:20.668 [main] INFO  us.piit.LoginTest - Validate error success
+02:15:25.714 [main] INFO  us.piit.LoginTest - enter login page
+02:15:26.322 [main] INFO  us.piit.LoginTest - Correct username entered
+02:15:26.734 [main] INFO  us.piit.LoginTest - Correct password entered
+02:15:27.548 [main] INFO  us.piit.LoginTest - Click on login Success
+02:15:28.286 [main] INFO  us.piit.LoginTest - Validate error success
+02:15:47.726 [main] INFO  us.piit.LoginTest - enter login page
+02:15:48.132 [main] INFO  us.piit.LoginTest - Correct username entered
+02:15:48.950 [main] INFO  us.piit.LoginTest - Correct password entered
+02:15:49.362 [main] INFO  us.piit.LoginTest - Click on login Success
+02:16:04.773 [main] INFO  us.piit.LoginTest - enter login page
+02:16:05.134 [main] INFO  us.piit.LoginTest - Correct username entered
+02:16:05.584 [main] INFO  us.piit.LoginTest - Correct password entered
+02:16:05.912 [main] INFO  us.piit.LoginTest - Click on login Success
+02:16:24.493 [main] INFO  us.piit.LoginTest - enter login page
+02:16:25.017 [main] INFO  us.piit.LoginTest - Correct username entered
+02:16:25.433 [main] INFO  us.piit.LoginTest - Correct password entered
+02:16:25.918 [main] INFO  us.piit.LoginTest - Click on login Success
+02:25:48.997 [main] INFO  us.piit.LoginTest - enter login page
+02:25:49.538 [main] INFO  us.piit.LoginTest - Correct username entered
+02:25:50.160 [main] INFO  us.piit.LoginTest - Correct password entered
+02:25:50.669 [main] INFO  us.piit.LoginTest - Click on login Success
+02:25:51.490 [main] INFO  us.piit.LoginTest - Validate error success
+02:26:04.084 [main] INFO  us.piit.LoginTest - enter login page
+02:26:04.593 [main] INFO  us.piit.LoginTest - Correct username entered
+02:26:04.899 [main] INFO  us.piit.LoginTest - Correct password entered
+02:26:05.212 [main] INFO  us.piit.LoginTest - Click on login Success
+02:28:02.772 [main] INFO  us.piit.LoginTest - enter login page
+02:28:03.276 [main] INFO  us.piit.LoginTest - Correct username entered
+02:28:03.792 [main] INFO  us.piit.LoginTest - Correct password entered
+02:28:04.202 [main] INFO  us.piit.LoginTest - Click on login Success
+02:28:04.807 [main] INFO  us.piit.LoginTest - Validate error success
+02:28:18.027 [main] INFO  us.piit.LoginTest - enter login page
+02:28:18.536 [main] INFO  us.piit.LoginTest - Correct username entered
+02:28:18.842 [main] INFO  us.piit.LoginTest - Correct password entered
+02:28:19.256 [main] INFO  us.piit.LoginTest - Click on login Success
+02:28:45.063 [main] INFO  us.piit.LoginTest - enter login page
+02:28:45.775 [main] INFO  us.piit.LoginTest - Correct username entered
+02:28:47.951 [main] INFO  us.piit.LoginTest - Correct password entered
+02:28:48.438 [main] INFO  us.piit.LoginTest - Click on login Success
+02:29:08.104 [main] INFO  us.piit.LoginTest - enter login page
+02:29:08.814 [main] INFO  us.piit.LoginTest - Correct username entered
+02:29:09.222 [main] INFO  us.piit.LoginTest - Correct password entered
+02:29:09.734 [main] INFO  us.piit.LoginTest - Click on login Success
+02:31:57.173 [main] INFO  us.piit.LoginTest - enter login page
+02:31:57.779 [main] INFO  us.piit.LoginTest - Correct username entered
+02:31:58.296 [main] INFO  us.piit.LoginTest - Correct password entered
+02:31:59.623 [main] INFO  us.piit.LoginTest - Click on login Success
+02:32:00.240 [main] INFO  us.piit.LoginTest - Validate error success
+02:32:14.162 [main] INFO  us.piit.LoginTest - enter login page
+02:32:14.572 [main] INFO  us.piit.LoginTest - Correct username entered
+02:32:15.083 [main] INFO  us.piit.LoginTest - Correct password entered
+02:32:15.394 [main] INFO  us.piit.LoginTest - Click on login Success
+02:32:15.875 [main] INFO  us.piit.LoginTest - Validate error success
+02:32:28.500 [main] INFO  us.piit.LoginTest - enter login page
+02:32:29.220 [main] INFO  us.piit.LoginTest - Correct username entered
+02:32:29.728 [main] INFO  us.piit.LoginTest - Correct password entered
+02:32:30.035 [main] INFO  us.piit.LoginTest - Click on login Success
+02:32:31.566 [main] INFO  us.piit.LoginTest - User login success
+02:32:45.907 [main] INFO  us.piit.LoginTest - enter login page
+02:32:46.527 [main] INFO  us.piit.LoginTest - Correct username entered
+02:32:46.762 [main] INFO  us.piit.LoginTest - Correct password entered
+02:32:47.135 [main] INFO  us.piit.LoginTest - Click on login Success
+02:32:47.851 [main] INFO  us.piit.LoginTest - Validate error success
+12:56:37.387 [main] INFO  us.piit.LoginTest - enter login page
+12:56:37.683 [main] INFO  us.piit.LoginTest - Correct username entered
+12:56:37.852 [main] INFO  us.piit.LoginTest - Correct password entered
+12:56:37.959 [main] INFO  us.piit.LoginTest - Click on login Success
+12:56:38.738 [main] INFO  us.piit.LoginTest - Validate error success
+12:56:47.393 [main] INFO  us.piit.LoginTest - enter login page
+12:56:47.538 [main] INFO  us.piit.LoginTest - Correct username entered
+12:56:47.692 [main] INFO  us.piit.LoginTest - Correct password entered
+12:56:47.814 [main] INFO  us.piit.LoginTest - Click on login Success
+12:56:48.176 [main] INFO  us.piit.LoginTest - Validate error success
+12:56:56.096 [main] INFO  us.piit.LoginTest - enter login page
+12:56:56.311 [main] INFO  us.piit.LoginTest - Correct username entered
+12:56:56.478 [main] INFO  us.piit.LoginTest - Correct password entered
+12:56:56.597 [main] INFO  us.piit.LoginTest - Click on login Success
+12:56:57.815 [main] INFO  us.piit.LoginTest - User login success
+12:57:06.127 [main] INFO  us.piit.LoginTest - enter login page
+12:57:06.382 [main] INFO  us.piit.LoginTest - Correct username entered
+12:57:06.507 [main] INFO  us.piit.LoginTest - Correct password entered
+12:57:06.628 [main] INFO  us.piit.LoginTest - Click on login Success
+12:57:07.116 [main] INFO  us.piit.LoginTest - Validate error success
+12:57:47.973 [main] INFO  us.piit.LoginTest - enter login page
+13:31:57.972 [main] INFO  us.piit.Setup - Chrome browser open success
+13:32:00.020 [main] INFO  us.piit.LoginTest - enter login page
+13:32:00.739 [main] INFO  us.piit.Setup - Browser closed succcessfully
+13:32:01.915 [main] INFO  us.piit.Setup - Chrome browser open success
+13:32:03.947 [main] INFO  us.piit.Setup - Browser closed succcessfully
+13:32:05.811 [main] INFO  us.piit.Setup - Chrome browser open success
+13:32:07.849 [main] INFO  us.piit.Setup - Browser closed succcessfully
+13:32:09.010 [main] INFO  us.piit.Setup - Chrome browser open success
+13:32:10.981 [main] INFO  us.piit.Setup - Browser closed succcessfully
+13:33:07.093 [main] INFO  us.piit.Setup - Chrome browser open success
+13:33:11.298 [main] INFO  us.piit.LoginTest - enter login page
+13:33:11.445 [main] INFO  us.piit.LoginTest - Correct username entered
+13:33:11.525 [main] INFO  us.piit.LoginTest - Correct password entered
+13:33:11.590 [main] INFO  us.piit.LoginTest - Click on login Success
+13:33:12.154 [main] INFO  us.piit.LoginTest - Validate error success
+13:33:12.795 [main] INFO  us.piit.Setup - Browser closed succcessfully
+13:33:14.194 [main] INFO  us.piit.Setup - Chrome browser open success
+13:33:16.367 [main] INFO  us.piit.Setup - Browser closed succcessfully
+13:33:18.110 [main] INFO  us.piit.Setup - Chrome browser open success
+13:33:19.987 [main] INFO  us.piit.LoginTest - enter login page
+13:33:20.688 [main] INFO  us.piit.Setup - Browser closed succcessfully
+13:33:22.437 [main] INFO  us.piit.Setup - Chrome browser open success
+13:33:23.991 [main] INFO  us.piit.LoginTest - enter login page
+13:33:24.627 [main] INFO  us.piit.Setup - Browser closed succcessfully
+13:34:43.211 [main] INFO  us.piit.Setup - Chrome browser open success
+13:34:49.564 [main] INFO  us.piit.Setup - Browser closed succcessfully
+17:24:42.901 [main] INFO  us.piit.Setup - Chrome browser open success
+17:24:49.063 [main] INFO  us.piit.LoginTest - enter login page
+17:24:49.311 [main] INFO  us.piit.LoginTest - Correct username entered
+17:24:49.452 [main] INFO  us.piit.LoginTest - Correct password entered
+17:24:49.582 [main] INFO  us.piit.LoginTest - Click on login Success
+17:24:50.215 [main] INFO  us.piit.LoginTest - Validate error success
+17:24:50.977 [main] INFO  us.piit.Setup - Browser closed succcessfully
+17:24:53.727 [main] INFO  us.piit.Setup - Chrome browser open success
+17:24:59.535 [main] INFO  us.piit.LoginTest - enter login page
+17:24:59.688 [main] INFO  us.piit.LoginTest - Correct username entered
+17:24:59.800 [main] INFO  us.piit.LoginTest - Correct password entered
+17:24:59.869 [main] INFO  us.piit.LoginTest - Click on login Success
+17:25:00.255 [main] INFO  us.piit.LoginTest - Validate error success
+17:25:01.012 [main] INFO  us.piit.Setup - Browser closed succcessfully
+17:25:03.536 [main] INFO  us.piit.Setup - Chrome browser open success
+17:25:08.848 [main] INFO  us.piit.LoginTest - enter login page
+17:25:08.965 [main] INFO  us.piit.LoginTest - Correct username entered
+17:25:09.113 [main] INFO  us.piit.LoginTest - Correct password entered
+17:25:09.229 [main] INFO  us.piit.LoginTest - Click on login Success
+17:25:10.362 [main] INFO  us.piit.LoginTest - User login success
+17:25:11.099 [main] INFO  us.piit.Setup - Browser closed succcessfully
+17:25:13.281 [main] INFO  us.piit.Setup - Chrome browser open success
+17:25:18.623 [main] INFO  us.piit.LoginTest - enter login page
+17:25:18.776 [main] INFO  us.piit.LoginTest - Correct username entered
+17:25:18.899 [main] INFO  us.piit.LoginTest - Correct password entered
+17:25:19.009 [main] INFO  us.piit.LoginTest - Click on login Success
+17:25:19.712 [main] INFO  us.piit.LoginTest - Validate error success
+17:25:20.419 [main] INFO  us.piit.Setup - Browser closed succcessfully
