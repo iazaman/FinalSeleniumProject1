@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="14c4a7a1-5345-4dad-baae-d2769c14fd4a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FinalSeleniumProject1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/us/piit/base/CommonAPI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/us/piit/pages/HomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/us/piit/pages/LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/us/piit/utility/ReadExcel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/us/piit/utility/utility.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/runner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/runner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/bullet_point.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/collapseall.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/emailable-report.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/failed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/freecrm test/login test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/freecrm test/login test.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/freecrm test/logout test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/freecrm test/logout test.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/freecrm test/testng-failed.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/freecrm test/verifyDashboard.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/freecrm test/verifyDashboard.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/jquery-3.6.0.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-us.piit.LoginTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-us.piit.VerifyDashboard.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/navigator-bullet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/old/freecrm test/classes.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/old/freecrm test/groups.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/old/freecrm test/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/old/freecrm test/login test.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/old/freecrm test/logout test.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/old/freecrm test/main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/old/freecrm test/methods-alphabetical.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/old/freecrm test/methods-not-run.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/old/freecrm test/methods.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/old/freecrm test/reporter-output.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/old/freecrm test/testng.xml.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/old/freecrm test/toc.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/old/freecrm test/verifyDashboard.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/old/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/passed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/skipped.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/testng-failed.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/testng-reports.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/testng-reports.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/testng-reports1.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/testng-reports2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/testng-results.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/testng.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FinalSeleniumProject1/logs/test-logs.log" beforeDir="false" afterPath="$PROJECT_DIR$/FinalSeleniumProject1/logs/test-logs.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/test-logs.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/test-logs.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/us/piit/Setup.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/us/piit/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/us/piit/LoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/us/piit/LogutTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/us/piit/LogutTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/us/piit/VerifyDashboard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/us/piit/VerifyDashboard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/us/piit/Setup.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/us/piit/LoginTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/us/piit/LoginTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/us/piit/LogutTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/us/piit/LogutTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/us/piit/VerifyDashboard.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/us/piit/VerifyDashboard.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2PUya8TB59LFmOCSIdiNlHyPi1e" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+    <option name="sortByType" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\BoyBangla\SeleniumFinalProject1\src\test\resources" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="us.piit" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.utility">
+    <configuration name="utility" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="us.piit.utility.utility" />
+      <module name="SeleniumFinalProject1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="us.piit.utility.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTest" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="SeleniumFinalProject1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="us.piit.base.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="us.piit" />
+      <option name="MAIN_CLASS_NAME" value="us.piit.LoginTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LogutTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumFinalProject1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="us.piit.base.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="us.piit" />
+      <option name="MAIN_CLASS_NAME" value="us.piit.LogutTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VerifyDashboard" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumFinalProject1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="us.piit.base.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="us.piit" />
+      <option name="MAIN_CLASS_NAME" value="us.piit.VerifyDashboard" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTest.validEmail" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumFinalProject1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="us.piit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="us.piit" />
+      <option name="MAIN_CLASS_NAME" value="us.piit.LoginTest" />
+      <option name="METHOD_NAME" value="validEmail" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="runner" type="TestNG" temporary="true">
+      <module name="SeleniumFinalProject1" />
+      <useClassPathOnly />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/runner.xml" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="USE_DEFAULT_REPORTERS" value="true" />
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.LoginTest" />
+      <item itemvalue="JUnit.LogutTest" />
+      <item itemvalue="JUnit.VerifyDashboard" />
+      <item itemvalue="TestNG.runner" />
+      <item itemvalue="TestNG.LoginTest.validEmail" />
+      <item itemvalue="Application.utility" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.utility" />
+        <item itemvalue="TestNG.runner" />
+        <item itemvalue="TestNG.LoginTest.validEmail" />
+        <item itemvalue="JUnit.VerifyDashboard" />
+        <item itemvalue="JUnit.LogutTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="14c4a7a1-5345-4dad-baae-d2769c14fd4a" name="Default Changelist" comment="" />
+      <created>1683526019195</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1683526019195</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/us/piit/LogutTest.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

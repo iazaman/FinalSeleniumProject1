@@ -2,138 +2,123 @@ package us.piit;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.junit.Assert;
-import org.junit.Test;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.PageFactory;
+import org.testng.Assert;
+import org.testng.annotations.Test;
+import us.piit.base.CommonAPI;
+import us.piit.pages.HomePage;
+import us.piit.pages.LoginPage;
+import us.piit.utility.utility;
 
-import java.time.Duration;
+import java.util.Properties;
 
-public class LoginTest extends Setup {
+
+public class LoginTest extends CommonAPI {
         Logger log = LogManager.getLogger(LoginTest.class.getName());
+        Properties prop = utility.Utility.loadProperties();
+
+        String validEmail = prop.getProperty("freecrm.email");
+        String validPassword = prop.getProperty("freecrm.password");
 
 
-        @Test
+
+
+
+        @org.testng.annotations.Test
         public void validEmail() {
+            LoginPage loginPage = new LoginPage(getDriver());
+            HomePage homePage = new HomePage(getDriver());
             String expectedTitle = "#1 Free CRM App for every business customer relationship management cloud";
-            String actualTitle = driver.getTitle();
+            String actualTitle = getCurrentTitle();
             Assert.assertEquals(expectedTitle, actualTitle);
 
-
-            WebElement loginLink = driver.findElement(By.xpath("//a[@class='btn btn-primary btn-xs-2 btn-shadow btn-rect btn-icon btn-icon-left']"));
-            loginLink.click();
+            loginPage.clickOnloginLink();
             log.info("enter login page");
+            loginPage.enterEmail(validEmail);
+            loginPage.enterPassword(validPassword);
+            loginPage.clickOnLoginButton();
 
-            WebElement emailField = driver.findElement(By.name("email"));
-            emailField.sendKeys("awafzaman@gmail.com");
-            log.info("Correct username entered");
-
-            WebElement passwordField = driver.findElement(By.name("password"));
-            passwordField.sendKeys("Takeover2022");
-            log.info("Correct password entered");
-
-            driver.findElement(By.xpath("//div[text()='Login']")).click();
-            log.info("Click on login Success");
-            driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(3));
+            waitFor(10);
 
 
             String expectedHomePageHeader = "No items found";
-            String actualHomePageHeader = driver.findElement(By.xpath("//div[contains(text(),'No items found')]")).getText();
+            String actualHomePageHeader = homePage.getHomePageHeader();
             Assert.assertEquals(expectedHomePageHeader, actualHomePageHeader);
-            log.info("User login success");
 
 
         }
 
         @Test
         public void inValidEmail() {
+            LoginPage loginPage = new LoginPage(getDriver());
+            HomePage homePage = new HomePage(getDriver());
             String expectedTitle = "#1 Free CRM App for every business customer relationship management cloud";
-            String actualTitle = driver.getTitle();
+            String actualTitle = getCurrentTitle();
             Assert.assertEquals(expectedTitle, actualTitle);
 
 
-            WebElement loginLink = driver.findElement(By.xpath("//a[@class='btn btn-primary btn-xs-2 btn-shadow btn-rect btn-icon btn-icon-left']"));
-            loginLink.click();
+            loginPage.clickOnloginLink();
             log.info("enter login page");
+            loginPage.enterEmail("InvalidEmail");
+            loginPage.enterPassword(validPassword);
+            loginPage.clickOnLoginButton();
+            waitFor(10);
 
-            WebElement emailField = driver.findElement(By.name("email"));
-            emailField.sendKeys("invalid email");
-            log.info("Correct username entered");
-
-            WebElement passwordField = driver.findElement(By.name("password"));
-            passwordField.sendKeys("Takeover2022");
-            log.info("Correct password entered");
-
-            driver.findElement(By.xpath("//div[text()='Login']")).click();
-            log.info("Click on login Success");
-            driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(3));
-
-            String expectedError = "Something went wrong...";
-            String actualError = driver.findElement(By.xpath("//div[contains(text(),'Something went wrong...')]")).getText();
+            String expectedError = "You do not have permission to perform this action";
+            String actualError = loginPage.getErrorMessage();
             Assert.assertEquals(expectedError, actualError);
-            log.info("Validate error success");
+
+
 
 
         }
 
         @Test
         public void missingEmail() {
+            LoginPage loginPage = new LoginPage(getDriver());
+            HomePage homePage = new HomePage(getDriver());
             String expectedTitle = "#1 Free CRM App for every business customer relationship management cloud";
-            String actualTitle = driver.getTitle();
+            String actualTitle = getCurrentTitle();
             Assert.assertEquals(expectedTitle, actualTitle);
 
 
-            WebElement loginLink = driver.findElement(By.xpath("//a[@class='btn btn-primary btn-xs-2 btn-shadow btn-rect btn-icon btn-icon-left']"));
-            loginLink.click();
+            loginPage.clickOnloginLink();
             log.info("enter login page");
+            loginPage.enterEmail(" ");
+            loginPage.enterPassword(validPassword);
+            loginPage.clickOnLoginButton();
+            waitFor(10);
 
-            WebElement emailField = driver.findElement(By.name("email"));
-            emailField.sendKeys("");
-            log.info("Correct username entered");
-
-            WebElement passwordField = driver.findElement(By.name("password"));
-            passwordField.sendKeys("Takeover2022");
-            log.info("Correct password entered");
-
-            driver.findElement(By.xpath("//div[text()='Login']")).click();
-            log.info("Click on login Success");
-            driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(3));
-
-            String expectedError = "Invalid request";
-            String actualError = driver.findElement(By.xpath("//p[contains(text(),'Invalid request')]")).getText();
+            String expectedError = "You do not have permission to perform this action";
+            String actualError = loginPage.getErrorMessage();
             Assert.assertEquals(expectedError, actualError);
-            log.info("Validate error success");
+
 
 
         }
 
         @Test
         public void missingPassword() {
+            LoginPage loginPage = new LoginPage(getDriver());
+            HomePage homePage = new HomePage(getDriver());
             String expectedTitle = "#1 Free CRM App for every business customer relationship management cloud";
-            String actualTitle = driver.getTitle();
+            String actualTitle = getCurrentTitle();
             Assert.assertEquals(expectedTitle, actualTitle);
 
 
-            WebElement loginLink = driver.findElement(By.xpath("//a[@class='btn btn-primary btn-xs-2 btn-shadow btn-rect btn-icon btn-icon-left']"));
-            loginLink.click();
+            loginPage.clickOnloginLink();
             log.info("enter login page");
+            loginPage.enterEmail(validEmail);
+            loginPage.enterPassword(" ");
+            loginPage.clickOnLoginButton();
+            waitFor(10);
 
-            WebElement emailField = driver.findElement(By.name("email"));
-            emailField.sendKeys("awafzaman@gmail.com");
-            log.info("Correct username entered");
-
-            WebElement passwordField = driver.findElement(By.name("password"));
-            passwordField.sendKeys("");
-            log.info("Correct password entered");
-
-            driver.findElement(By.xpath("//div[text()='Login']")).click();
-            log.info("Click on login Success");
-            driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(3));
-
-            String expectedError = "Invalid request";
-            String actualError = driver.findElement(By.xpath("//p[contains(text(),'Invalid request')]")).getText();
+            String expectedError = "You do not have permission to perform this action";
+            String actualError = loginPage.getErrorMessage();
             Assert.assertEquals(expectedError, actualError);
-            log.info("Validate error success");
+
+
+
 
 
         }
