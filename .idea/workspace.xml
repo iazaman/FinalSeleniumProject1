@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="14c4a7a1-5345-4dad-baae-d2769c14fd4a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FinalSeleniumProject1" beforeDir="false" afterPath="$PROJECT_DIR$/FinalSeleniumProject1" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FinalSeleniumProject1/logs/test-logs.log" beforeDir="false" afterPath="$PROJECT_DIR$/FinalSeleniumProject1/logs/test-logs.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/us/piit/VerifyDashboard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/us/piit/VerifyDashboard.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
