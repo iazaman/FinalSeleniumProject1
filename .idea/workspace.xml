@@ -5,69 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="14c4a7a1-5345-4dad-baae-d2769c14fd4a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FinalSeleniumProject1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/us/piit/base/CommonAPI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/us/piit/pages/HomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/us/piit/pages/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/us/piit/utility/ReadExcel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/us/piit/utility/utility.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/runner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/runner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/bullet_point.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/collapseall.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/emailable-report.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/failed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/freecrm test/login test.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/freecrm test/login test.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/freecrm test/logout test.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/freecrm test/logout test.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/freecrm test/testng-failed.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/freecrm test/verifyDashboard.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/freecrm test/verifyDashboard.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/jquery-3.6.0.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-us.piit.LoginTest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-us.piit.VerifyDashboard.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/navigator-bullet.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/old/freecrm test/classes.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/old/freecrm test/groups.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/old/freecrm test/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/old/freecrm test/login test.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/old/freecrm test/logout test.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/old/freecrm test/main.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/old/freecrm test/methods-alphabetical.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/old/freecrm test/methods-not-run.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/old/freecrm test/methods.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/old/freecrm test/reporter-output.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/old/freecrm test/testng.xml.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/old/freecrm test/toc.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/old/freecrm test/verifyDashboard.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/old/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/passed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/skipped.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/testng-failed.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/testng-reports.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/testng-reports.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/testng-reports1.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/testng-reports2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/testng-results.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/testng.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FinalSeleniumProject1" beforeDir="false" afterPath="$PROJECT_DIR$/FinalSeleniumProject1" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FinalSeleniumProject1/logs/test-logs.log" beforeDir="false" afterPath="$PROJECT_DIR$/FinalSeleniumProject1/logs/test-logs.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/test-logs.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/test-logs.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/us/piit/Setup.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/us/piit/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/us/piit/LoginTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/us/piit/LogutTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/us/piit/LogutTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/us/piit/VerifyDashboard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/us/piit/VerifyDashboard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/us/piit/Setup.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/us/piit/LoginTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/us/piit/LoginTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/us/piit/LogutTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/us/piit/LogutTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/us/piit/VerifyDashboard.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/us/piit/VerifyDashboard.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -205,12 +146,12 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.utility" />
       <item itemvalue="JUnit.LoginTest" />
       <item itemvalue="JUnit.LogutTest" />
       <item itemvalue="JUnit.VerifyDashboard" />
       <item itemvalue="TestNG.runner" />
       <item itemvalue="TestNG.LoginTest.validEmail" />
-      <item itemvalue="Application.utility" />
     </list>
     <recent_temporary>
       <list>
