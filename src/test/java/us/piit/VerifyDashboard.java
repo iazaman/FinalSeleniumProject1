@@ -21,6 +21,7 @@ public class VerifyDashboard extends CommonAPI {
     Logger log = LogManager.getLogger(VerifyDashboard.class.getName());
     String validEmail = "awafzaman@gmail.com";
     String validPassword = "Takeover2022";
+    String titleName = "newtask";
     @Test
     public void testDashboardLoadPage(){
         LoginPage loginPage = new LoginPage(getDriver());
@@ -59,26 +60,14 @@ public class VerifyDashboard extends CommonAPI {
         Assert.assertEquals(actualHeader, expectedHeader);
         log.info("Validate dashboard success");
 
-        WebDriverWait wait = new WebDriverWait(getDriver(), Duration.ofSeconds(10));
-        wait.until(ExpectedConditions.titleContains("Cogmento"));
+        waitFor(10);
+        homePage.clickOnTaskMenuItem();
+        waitFor(10);
+        homePage.clickOnCreateButton();
+        waitFor(5);
+        homePage.enterTitle(titleName);
+        homePage.ClickOnSaveButton();
 
-        WebElement tasksMenuItem = getDriver().findElement(By.xpath("//span[contains(text(), 'Tasks')]"));
-        tasksMenuItem.click();
-
-        wait.until(ExpectedConditions.titleContains("Tasks"));
-
-        WebElement createButton = getDriver().findElement(By.xpath("//button[contains(text(), 'Create')]"));
-        createButton.click();
-
-        wait.until(ExpectedConditions.presenceOfElementLocated(By.name("title")));
-
-        WebElement titleInput = getDriver().findElement(By.name("title"));
-        titleInput.sendKeys("New Task");
-
-        WebElement submitButton = getDriver().findElement(By.xpath("//button[contains(text(), 'Save')]"));
-        submitButton.click();
-
-        wait.until(ExpectedConditions.titleContains("Tasks"));
 
 
     }

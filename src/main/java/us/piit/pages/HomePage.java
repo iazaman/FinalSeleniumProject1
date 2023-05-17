@@ -13,6 +13,17 @@ public class HomePage extends CommonAPI {
     public HomePage(WebDriver driver){
         PageFactory.initElements(driver, this);
     }
+    @FindBy(xpath = "//button[contains(text(), 'Save')]")
+    WebElement clickOnSaveButton;
+
+    @FindBy(xpath = "//body/div[@id='ui']/div[1]/div[2]/div[2]/div[1]/div[2]/form[1]/div[1]/div[1]/div[1]/div[1]/input[1]")
+    WebElement NewTaskTitleField;
+
+    @FindBy(xpath = "//button[contains(text(), 'Create')]")
+    WebElement clickOnCreateButton;
+
+    @FindBy(xpath = "//span[contains(text(), 'Tasks')]")
+    WebElement clickOnTaskMenuItem;
 
 
 
@@ -25,12 +36,30 @@ public class HomePage extends CommonAPI {
     @FindBy(xpath = "//span[contains(text(),'Log Out')]")
     WebElement clickOnLogoutButton;
 
+    public void ClickOnSaveButton(){
+        clickOn(clickOnSaveButton);
+    }
+
+    public void enterTitle(String newtask){
+        type(NewTaskTitleField, newtask);
+
+    }
+
+
+
+    public void clickOnCreateButton(){
+        clickOn(clickOnCreateButton);
+    }
+
     public void clickOnSettingButton(){
         clickOn(clickOnSettingButton);
     }
     public void clickOnLogOutButton(){
         clickOn(clickOnLogoutButton);
         log.info("Click on logout button success");
+    }
+    public void clickOnTaskMenuItem(){
+        clickOn(clickOnTaskMenuItem);
     }
 
 
