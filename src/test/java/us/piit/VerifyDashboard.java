@@ -4,28 +4,25 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
+
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import us.piit.base.CommonAPI;
 import us.piit.pages.HomePage;
 import us.piit.pages.LoginPage;
 
-import java.time.Duration;
+
 
 public class VerifyDashboard extends CommonAPI {
     Logger log = LogManager.getLogger(VerifyDashboard.class.getName());
     String validEmail = "awafzaman@gmail.com";
     String validPassword = "Takeover2022";
     String titleName = "newtask";
+    String searchContact = "Lionel";
     @Test
     public void testDashboardLoadPage(){
         LoginPage loginPage = new LoginPage(getDriver());
-        HomePage homePage = new HomePage(getDriver());
+
         String expectedTitle = "#1 Free CRM App for every business customer relationship management cloud";
         String actualTitle = getCurrentTitle();
         Assert.assertEquals(expectedTitle, actualTitle);
@@ -69,6 +66,31 @@ public class VerifyDashboard extends CommonAPI {
         homePage.ClickOnSaveButton();
 
 
+
+    }
+
+    @Test
+    public void searchContact(){
+        LoginPage loginPage = new LoginPage(getDriver());
+        HomePage homePage = new HomePage(getDriver());
+        String expectedTitle = "#1 Free CRM App for every business customer relationship management cloud";
+        String actualTitle = getCurrentTitle();
+        Assert.assertEquals(expectedTitle, actualTitle);
+
+        loginPage.clickOnloginLink();
+        loginPage.enterEmail(validEmail);
+        loginPage.enterPassword(validPassword);
+        loginPage.clickOnLoginButton();
+        String expectedHeader = "Cogmento CRM";
+        String actualHeader = getCurrentTitle();
+        Assert.assertEquals(actualHeader, expectedHeader);
+        log.info("Validate dashboard success");
+
+        homePage.typeOnSearchField(searchContact);
+        String expectedContactName = "Lionel Messi";
+        String actualContactName = homePage.getActualContactNameTitle();
+        Assert.assertEquals(expectedContactName,actualContactName);
+        log.info("desired contact found");
 
     }
 

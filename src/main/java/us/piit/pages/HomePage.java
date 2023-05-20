@@ -27,7 +27,7 @@ public class HomePage extends CommonAPI {
 
 
 
-    @FindBy(xpath = "//div[contains(text(),'No items found')]")
+    @FindBy(xpath = "//span[@class=\"user-display\" and text()=\"Ibna Zaman\"]\n")
     WebElement homePageHeader;
 
     @FindBy(xpath = "//body/div[@id='ui']/div[1]/div[2]/div[1]/div[2]/div[2]/div[1]/i[1]")
@@ -36,7 +36,26 @@ public class HomePage extends CommonAPI {
     @FindBy(xpath = "//span[contains(text(),'Log Out')]")
     WebElement clickOnLogoutButton;
 
+    @FindBy(xpath = "//input[@type=\"text\" and @placeholder=\"Search\"]\n")
+    WebElement searchField;
+
+    @FindBy(xpath = "//a[@href=\"/contacts/220a97ab-5b94-4c07-bbb9-d91d08055b44\" and text()=\"Lionel Messi\"]\n")
+    WebElement actualContactNameTitle;
+
+    public String getActualContactNameTitle(){
+        String text = getElementText(actualContactNameTitle);
+        return text;
+    }
+
+    public void typeOnSearchField(String searchContact){
+        type(searchField , searchContact);
+    }
+
+
+
+
     public void ClickOnSaveButton(){
+
         clickOn(clickOnSaveButton);
     }
 

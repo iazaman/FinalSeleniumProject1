@@ -21,4 +21,15 @@
       </class> <!-- us.piit.LoginTest -->
     </classes>
   </test> <!-- login test(failed) -->
+  <test thread-count="5" name="verifyDashboard(failed)">
+    <classes>
+      <class name="us.piit.VerifyDashboard">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="createNewTask"/>
+        </methods>
+      </class> <!-- us.piit.VerifyDashboard -->
+    </classes>
+  </test> <!-- verifyDashboard(failed) -->
 </suite> <!-- Failed suite [freecrm test] -->

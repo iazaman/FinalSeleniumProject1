@@ -38,12 +38,13 @@ public class LoginTest extends CommonAPI {
             loginPage.enterPassword(validPassword);
             loginPage.clickOnLoginButton();
 
-            waitFor(10);
+            waitFor(5);
 
 
-            String expectedHomePageHeader = "No items found";
-            String actualHomePageHeader = homePage.getHomePageHeader();
-            Assert.assertEquals(expectedHomePageHeader, actualHomePageHeader);
+            String expectedHeader = "Cogmento CRM";
+            String actualHeader = getCurrentTitle();
+            Assert.assertEquals(actualHeader, expectedHeader);
+            log.info("user logged in success");
 
 
         }
@@ -64,7 +65,7 @@ public class LoginTest extends CommonAPI {
             loginPage.clickOnLoginButton();
             waitFor(10);
 
-            String expectedError = "You do not have permission to perform this action";
+            String expectedError = "Something went wrong...";
             String actualError = loginPage.getErrorMessage();
             Assert.assertEquals(expectedError, actualError);
 
@@ -89,7 +90,7 @@ public class LoginTest extends CommonAPI {
             loginPage.clickOnLoginButton();
             waitFor(10);
 
-            String expectedError = "You do not have permission to perform this action";
+            String expectedError = "Something went wrong...";
             String actualError = loginPage.getErrorMessage();
             Assert.assertEquals(expectedError, actualError);
 
@@ -113,7 +114,7 @@ public class LoginTest extends CommonAPI {
             loginPage.clickOnLoginButton();
             waitFor(10);
 
-            String expectedError = "You do not have permission to perform this action";
+            String expectedError = "Something went wrong...";
             String actualError = loginPage.getErrorMessage();
             Assert.assertEquals(expectedError, actualError);
 

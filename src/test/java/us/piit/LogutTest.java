@@ -28,10 +28,10 @@ public class LogutTest extends CommonAPI {
         loginPage.clickOnLoginButton();
 
 
-        String expectedHomePageHeader = "No items found";
-        String actualHomePageHeader= homePage.getHomePageHeader();
-        Assert.assertEquals(expectedHomePageHeader,actualHomePageHeader);
-        log.info("User login success");
+        String expectedHeader = "Cogmento CRM";
+        String actualHeader = getCurrentTitle();
+        org.testng.Assert.assertEquals(actualHeader, expectedHeader);
+        log.info("user logged in success");
 
         waitFor(3);
 

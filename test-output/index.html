@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 3 failed tests</span>
+      <span class="top-banner-font-1">1 suite, 4 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">5 methods, 3 failed,   2 passed</span>
+                    <span class="method-stats">6 methods, 4 failed,   2 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -101,6 +101,11 @@
                       <a href="#" panel-name="suite-freecrm_test" class="show-methods failed suite-freecrm_test"> (show)</a> <!-- show-methods failed suite-freecrm_test -->
                     </span>
                     <div class="method-list-content failed suite-freecrm_test">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-freecrm_test" title="us.piit.VerifyDashboard" class="method navigator-link" hash-for-method="createNewTask">createNewTask</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
                       <span>
                         <img src="failed.png" width="3%"/>
                         <a href="#" panel-name="suite-freecrm_test" title="us.piit.LoginTest" class="method navigator-link" hash-for-method="inValidEmail">inValidEmail</a> <!-- method navigator-link -->
@@ -158,42 +163,15 @@
                   <a name="inValidEmail">
                   </a> <!-- inValidEmail -->
                   <span class="method-name">inValidEmail</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to find element with locator By.xpath: //div[@class=&apos;ui error floating icon message&apos;]
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;ui error floating icon message&apos;]&quot;}
+  (Session info: chrome=113.0.5672.94)
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: &apos;4.8.3&apos;, revision: &apos;e5e76298c3&apos;
 System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.10&apos;
-Driver info: driver.version: RemoteWebDriver
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
-	at com.sun.proxy.$Proxy33.getText(Unknown Source)
-	at us.piit.base.CommonAPI.getElementText(CommonAPI.java:91)
-	at us.piit.pages.LoginPage.getErrorMessage(LoginPage.java:69)
-	at us.piit.LoginTest.inValidEmail(LoginTest.java:64)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
-	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
-... Removed 24 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="missingEmail">
-                  </a> <!-- missingEmail -->
-                  <span class="method-name">missingEmail</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=113.0.5672.93)
-Build info: version: &apos;4.8.3&apos;, revision: &apos;e5e76298c3&apos;
-System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.10&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [6ae62d224752701b17443b5646e648dd, findElement {using=xpath, value=//div[@class=&apos;ui error floating icon message&apos;]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.93, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\BOYBAN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53431}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53431/devtoo..., se:cdpVersion: 113.0.5672.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 6ae62d224752701b17443b5646e648dd
+Command: [48bcd0894c109bad8b8e6c54f23f5b1b, findElement {using=xpath, value=//div[@class=&apos;ui error floating icon message&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.94, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\BOYBAN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:63597}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63597/devtoo..., se:cdpVersion: 113.0.5672.94, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 48bcd0894c109bad8b8e6c54f23f5b1b
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
@@ -208,9 +186,47 @@ Session ID: 6ae62d224752701b17443b5646e648dd
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
 	at com.sun.proxy.$Proxy33.getText(Unknown Source)
-	at us.piit.base.CommonAPI.getElementText(CommonAPI.java:91)
+	at us.piit.base.CommonAPI.getElementText(CommonAPI.java:104)
 	at us.piit.pages.LoginPage.getErrorMessage(LoginPage.java:69)
-	at us.piit.LoginTest.missingEmail(LoginTest.java:89)
+	at us.piit.LoginTest.inValidEmail(LoginTest.java:68)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="missingEmail">
+                  </a> <!-- missingEmail -->
+                  <span class="method-name">missingEmail</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;ui error floating icon message&apos;]&quot;}
+  (Session info: chrome=113.0.5672.94)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.8.3&apos;, revision: &apos;e5e76298c3&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.10&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [71116d78c6214aa442d81b46c8c74e3a, findElement {using=xpath, value=//div[@class=&apos;ui error floating icon message&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.94, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\BOYBAN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:63644}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63644/devtoo..., se:cdpVersion: 113.0.5672.94, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 71116d78c6214aa442d81b46c8c74e3a
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at com.sun.proxy.$Proxy33.getText(Unknown Source)
+	at us.piit.base.CommonAPI.getElementText(CommonAPI.java:104)
+	at us.piit.pages.LoginPage.getErrorMessage(LoginPage.java:69)
+	at us.piit.LoginTest.missingEmail(LoginTest.java:93)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
 	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
 	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
@@ -223,45 +239,87 @@ Session ID: 6ae62d224752701b17443b5646e648dd
                   <a name="validEmail">
                   </a> <!-- validEmail -->
                   <span class="method-name">validEmail</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to find element with locator By.xpath: //div[contains(text(),&apos;No items found&apos;)]
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=113.0.5672.94)
 Build info: version: &apos;4.8.3&apos;, revision: &apos;e5e76298c3&apos;
 System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.10&apos;
-Driver info: driver.version: RemoteWebDriver
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4fb4639b39d012565c54c01b57fd7686, findElement {using=xpath, value=//div[contains(text(),&apos;No items found&apos;)]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.94, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\BOYBAN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:63748}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63748/devtoo..., se:cdpVersion: 113.0.5672.94, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4fb4639b39d012565c54c01b57fd7686
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
 	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
 	at com.sun.proxy.$Proxy33.getText(Unknown Source)
-	at us.piit.base.CommonAPI.getElementText(CommonAPI.java:91)
-	at us.piit.pages.HomePage.getHomePageHeader(HomePage.java:39)
-	at us.piit.LoginTest.validEmail(LoginTest.java:41)
+	at us.piit.base.CommonAPI.getElementText(CommonAPI.java:104)
+	at us.piit.pages.HomePage.getHomePageHeader(HomePage.java:68)
+	at us.piit.LoginTest.validEmail(LoginTest.java:45)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
 	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
 	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
-... Removed 24 stack frames
+... Removed 28 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-freecrm_test-class-failed -->
-          <div class="suite-freecrm_test-class-passed">
+          <div class="suite-freecrm_test-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
+              <img src="failed.png"/>
               <span class="class-name">us.piit.VerifyDashboard</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="testDashboardLoadPage">
-                  </a> <!-- testDashboardLoadPage -->
-                  <span class="method-name">testDashboardLoadPage</span>
+                  <a name="createNewTask">
+                  </a> <!-- createNewTask -->
+                  <span class="method-name">createNewTask</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[contains(text(), &apos;Tasks&apos;)]&quot;}
+  (Session info: chrome=113.0.5672.94)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.8.3&apos;, revision: &apos;e5e76298c3&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.10&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1d673fee8bafe58ce09431188e3323ff, findElement {using=xpath, value=//span[contains(text(), &apos;Tasks&apos;)]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.94, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\BOYBAN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:63792}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63792/devtoo..., se:cdpVersion: 113.0.5672.94, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1d673fee8bafe58ce09431188e3323ff
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at com.sun.proxy.$Proxy33.click(Unknown Source)
+	at us.piit.base.CommonAPI.clickOn(CommonAPI.java:107)
+	at us.piit.pages.HomePage.clickOnTaskMenuItem(HomePage.java:62)
+	at us.piit.VerifyDashboard.createNewTask(VerifyDashboard.java:64)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-freecrm_test-class-passed -->
+          </div> <!-- suite-freecrm_test-class-failed -->
           <div class="suite-freecrm_test-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -273,6 +331,21 @@ Driver info: driver.version: RemoteWebDriver
                   <a name="missingPassword">
                   </a> <!-- missingPassword -->
                   <span class="method-name">missingPassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-freecrm_test-class-passed -->
+          <div class="suite-freecrm_test-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">us.piit.VerifyDashboard</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDashboardLoadPage">
+                  </a> <!-- testDashboardLoadPage -->
+                  <span class="method-name">testDashboardLoadPage</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -352,27 +425,31 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(5);
+data.addRows(6);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'inValidEmail')
 data.setCell(0, 2, 'us.piit.LoginTest')
-data.setCell(0, 3, 23110);
+data.setCell(0, 3, 23796);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'validEmail')
-data.setCell(1, 2, 'us.piit.LoginTest')
-data.setCell(1, 3, 21175);
+data.setCell(1, 1, 'createNewTask')
+data.setCell(1, 2, 'us.piit.VerifyDashboard')
+data.setCell(1, 3, 22753);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'missingPassword')
+data.setCell(2, 1, 'missingEmail')
 data.setCell(2, 2, 'us.piit.LoginTest')
-data.setCell(2, 3, 13987);
+data.setCell(2, 3, 22720);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'missingEmail')
+data.setCell(3, 1, 'missingPassword')
 data.setCell(3, 2, 'us.piit.LoginTest')
-data.setCell(3, 3, 13739);
+data.setCell(3, 3, 13072);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'testDashboardLoadPage')
-data.setCell(4, 2, 'us.piit.VerifyDashboard')
-data.setCell(4, 3, 4217);
+data.setCell(4, 1, 'validEmail')
+data.setCell(4, 2, 'us.piit.LoginTest')
+data.setCell(4, 3, 12882);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testDashboardLoadPage')
+data.setCell(5, 2, 'us.piit.VerifyDashboard')
+data.setCell(5, 3, 2702);
 window.suiteTableData['freecrm_test']= { tableData: data, tableDiv: 'times-div-freecrm_test'}
 return data;
 }
@@ -412,66 +489,80 @@ return data;
                 <img src="failed.png">
                 </img>
                 <span class="method-name">inValidEmail</span>
-                <span class="method-start">7040 ms</span>
+                <span class="method-start">6046 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">30185 ms</span>
+                <span class="method-start">29867 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp(false, browserstack, windows, 11, chrome, 113, https://freecrm.com/)</span>
-                <span class="method-start">31022 ms</span>
+                <span class="method-start">30580 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">missingEmail</span>
-                <span class="method-start">35936 ms</span>
+                <span class="method-start">33544 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">49683 ms</span>
+                <span class="method-start">56269 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp(false, browserstack, windows, 11, chrome, 113, https://freecrm.com/)</span>
-                <span class="method-start">50359 ms</span>
+                <span class="method-start">56997 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">missingPassword</span>
-                <span class="method-start">54698 ms</span>
+                <span class="method-start">60673 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">68685 ms</span>
+                <span class="method-start">73746 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp(false, browserstack, windows, 11, chrome, 113, https://freecrm.com/)</span>
-                <span class="method-start">69582 ms</span>
+                <span class="method-start">74436 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">validEmail</span>
-                <span class="method-start">74008 ms</span>
+                <span class="method-start">77948 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">95188 ms</span>
+                <span class="method-start">90835 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">us.piit.VerifyDashboard</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp(false, browserstack, windows, 11, chrome, 113, https://freecrm.com/)</span>
-                <span class="method-start">96136 ms</span>
+                <span class="method-start">91536 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">testDashboardLoadPage</span>
-                <span class="method-start">100621 ms</span>
+                <img src="failed.png">
+                </img>
+                <span class="method-name">createNewTask</span>
+                <span class="method-start">94906 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">104839 ms</span>
+                <span class="method-start">117663 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, windows, 11, chrome, 113, https://freecrm.com/)</span>
+                <span class="method-start">118356 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testDashboardLoadPage</span>
+                <span class="method-start">121463 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">124165 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

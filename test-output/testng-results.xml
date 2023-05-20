@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="2" failed="3" skipped="0">
+<testng-results ignored="0" total="6" passed="2" failed="4" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-05-15T19:26:14 EDT" name="freecrm test" finished-at="2023-05-15T19:28:00 EDT" duration-ms="105701">
+  <suite started-at="2023-05-18T18:36:00 EDT" name="freecrm test" finished-at="2023-05-18T18:38:05 EDT" duration-ms="124875">
     <groups>
     </groups>
-    <test started-at="2023-05-15T19:26:14 EDT" name="login test" finished-at="2023-05-15T19:27:50 EDT" duration-ms="96113">
+    <test started-at="2023-05-18T18:36:00 EDT" name="login test" finished-at="2023-05-18T18:37:31 EDT" duration-ms="91518">
       <class name="us.piit.LoginTest">
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:us.piit.LoginTest@20a8a64e]" started-at="2023-05-15T19:26:14 EDT" name="setUp" finished-at="2023-05-15T19:26:21 EDT" duration-ms="7037" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:us.piit.LoginTest@24b6b8f6]" started-at="2023-05-18T18:36:00 EDT" name="setUp" finished-at="2023-05-18T18:36:06 EDT" duration-ms="6042" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -48,31 +48,50 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="inValidEmail()[pri:0, instance:us.piit.LoginTest@20a8a64e]" started-at="2023-05-15T19:26:21 EDT" name="inValidEmail" finished-at="2023-05-15T19:26:44 EDT" duration-ms="23110" status="FAIL">
+        <test-method signature="inValidEmail()[pri:0, instance:us.piit.LoginTest@24b6b8f6]" started-at="2023-05-18T18:36:06 EDT" name="inValidEmail" finished-at="2023-05-18T18:36:30 EDT" duration-ms="23796" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[Unable to find element with locator By.xpath: //div[@class='ui error floating icon message']
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui error floating icon message']"}
+  (Session info: chrome=113.0.5672.94)
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.8.3', revision: 'e5e76298c3'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.10'
-Driver info: driver.version: RemoteWebDriver]]>
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [48bcd0894c109bad8b8e6c54f23f5b1b, findElement {using=xpath, value=//div[@class='ui error floating icon message']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.94, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\BOYBAN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:63597}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63597/devtoo..., se:cdpVersion: 113.0.5672.94, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 48bcd0894c109bad8b8e6c54f23f5b1b]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to find element with locator By.xpath: //div[@class='ui error floating icon message']
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui error floating icon message']"}
+  (Session info: chrome=113.0.5672.94)
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.8.3', revision: 'e5e76298c3'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.10'
-Driver info: driver.version: RemoteWebDriver
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [48bcd0894c109bad8b8e6c54f23f5b1b, findElement {using=xpath, value=//div[@class='ui error floating icon message']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.94, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\BOYBAN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:63597}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63597/devtoo..., se:cdpVersion: 113.0.5672.94, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 48bcd0894c109bad8b8e6c54f23f5b1b
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
 at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
 at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
 at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
 at com.sun.proxy.$Proxy33.getText(Unknown Source)
-at us.piit.base.CommonAPI.getElementText(CommonAPI.java:91)
+at us.piit.base.CommonAPI.getElementText(CommonAPI.java:104)
 at us.piit.pages.LoginPage.getErrorMessage(LoginPage.java:69)
-at us.piit.LoginTest.inValidEmail(LoginTest.java:64)
+at us.piit.LoginTest.inValidEmail(LoginTest.java:68)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -106,11 +125,11 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- inValidEmail -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:us.piit.LoginTest@20a8a64e]" started-at="2023-05-15T19:26:45 EDT" name="tearDown" finished-at="2023-05-15T19:26:45 EDT" duration-ms="837" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:us.piit.LoginTest@24b6b8f6]" started-at="2023-05-18T18:36:30 EDT" name="tearDown" finished-at="2023-05-18T18:36:31 EDT" duration-ms="711" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:us.piit.LoginTest@20a8a64e]" started-at="2023-05-15T19:26:45 EDT" name="setUp" finished-at="2023-05-15T19:26:50 EDT" duration-ms="4914" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:us.piit.LoginTest@24b6b8f6]" started-at="2023-05-18T18:36:31 EDT" name="setUp" finished-at="2023-05-18T18:36:34 EDT" duration-ms="2964" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -151,29 +170,29 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="missingEmail()[pri:0, instance:us.piit.LoginTest@20a8a64e]" started-at="2023-05-15T19:26:50 EDT" name="missingEmail" finished-at="2023-05-15T19:27:04 EDT" duration-ms="13739" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchWindowException">
+        <test-method signature="missingEmail()[pri:0, instance:us.piit.LoginTest@24b6b8f6]" started-at="2023-05-18T18:36:34 EDT" name="missingEmail" finished-at="2023-05-18T18:36:56 EDT" duration-ms="22720" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=113.0.5672.93)
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui error floating icon message']"}
+  (Session info: chrome=113.0.5672.94)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.8.3', revision: 'e5e76298c3'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.10'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [6ae62d224752701b17443b5646e648dd, findElement {using=xpath, value=//div[@class='ui error floating icon message']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.93, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\BOYBAN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53431}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53431/devtoo..., se:cdpVersion: 113.0.5672.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 6ae62d224752701b17443b5646e648dd]]>
+Command: [71116d78c6214aa442d81b46c8c74e3a, findElement {using=xpath, value=//div[@class='ui error floating icon message']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.94, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\BOYBAN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:63644}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63644/devtoo..., se:cdpVersion: 113.0.5672.94, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 71116d78c6214aa442d81b46c8c74e3a]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=113.0.5672.93)
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='ui error floating icon message']"}
+  (Session info: chrome=113.0.5672.94)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.8.3', revision: 'e5e76298c3'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.10'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [6ae62d224752701b17443b5646e648dd, findElement {using=xpath, value=//div[@class='ui error floating icon message']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.93, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\BOYBAN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53431}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53431/devtoo..., se:cdpVersion: 113.0.5672.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 6ae62d224752701b17443b5646e648dd
+Command: [71116d78c6214aa442d81b46c8c74e3a, findElement {using=xpath, value=//div[@class='ui error floating icon message']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.94, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\BOYBAN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:63644}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63644/devtoo..., se:cdpVersion: 113.0.5672.94, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 71116d78c6214aa442d81b46c8c74e3a
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -192,161 +211,9 @@ at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:3
 at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
 at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
 at com.sun.proxy.$Proxy33.getText(Unknown Source)
-at us.piit.base.CommonAPI.getElementText(CommonAPI.java:91)
+at us.piit.base.CommonAPI.getElementText(CommonAPI.java:104)
 at us.piit.pages.LoginPage.getErrorMessage(LoginPage.java:69)
-at us.piit.LoginTest.missingEmail(LoginTest.java:89)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-at org.testng.TestRunner.privateRun(TestRunner.java:829)
-at org.testng.TestRunner.run(TestRunner.java:602)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
-at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
-at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- missingEmail -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:us.piit.LoginTest@20a8a64e]" started-at="2023-05-15T19:27:04 EDT" name="tearDown" finished-at="2023-05-15T19:27:05 EDT" duration-ms="676" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:us.piit.LoginTest@20a8a64e]" started-at="2023-05-15T19:27:05 EDT" name="setUp" finished-at="2023-05-15T19:27:09 EDT" duration-ms="4339" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[false]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[browserstack]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[windows]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[11]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[113]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[https://freecrm.com/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="missingPassword()[pri:0, instance:us.piit.LoginTest@20a8a64e]" started-at="2023-05-15T19:27:09 EDT" name="missingPassword" finished-at="2023-05-15T19:27:23 EDT" duration-ms="13987" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- missingPassword -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:us.piit.LoginTest@20a8a64e]" started-at="2023-05-15T19:27:23 EDT" name="tearDown" finished-at="2023-05-15T19:27:24 EDT" duration-ms="897" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:us.piit.LoginTest@20a8a64e]" started-at="2023-05-15T19:27:24 EDT" name="setUp" finished-at="2023-05-15T19:27:28 EDT" duration-ms="4426" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[false]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[browserstack]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[windows]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[11]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[113]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[https://freecrm.com/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="validEmail()[pri:0, instance:us.piit.LoginTest@20a8a64e]" started-at="2023-05-15T19:27:28 EDT" name="validEmail" finished-at="2023-05-15T19:27:50 EDT" duration-ms="21175" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[Unable to find element with locator By.xpath: //div[contains(text(),'No items found')]
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.8.3', revision: 'e5e76298c3'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.10'
-Driver info: driver.version: RemoteWebDriver]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to find element with locator By.xpath: //div[contains(text(),'No items found')]
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.8.3', revision: 'e5e76298c3'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.10'
-Driver info: driver.version: RemoteWebDriver
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
-at com.sun.proxy.$Proxy33.getText(Unknown Source)
-at us.piit.base.CommonAPI.getElementText(CommonAPI.java:91)
-at us.piit.pages.HomePage.getHomePageHeader(HomePage.java:39)
-at us.piit.LoginTest.validEmail(LoginTest.java:41)
+at us.piit.LoginTest.missingEmail(LoginTest.java:93)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -379,18 +246,12 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
           </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validEmail -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:us.piit.LoginTest@20a8a64e]" started-at="2023-05-15T19:27:50 EDT" name="tearDown" finished-at="2023-05-15T19:27:50 EDT" duration-ms="846" status="PASS">
+        </test-method> <!-- missingEmail -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:us.piit.LoginTest@24b6b8f6]" started-at="2023-05-18T18:36:56 EDT" name="tearDown" finished-at="2023-05-18T18:36:57 EDT" duration-ms="726" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- us.piit.LoginTest -->
-    </test> <!-- login test -->
-    <test started-at="2023-05-15T19:27:50 EDT" name="logout test" finished-at="2023-05-15T19:27:50 EDT" duration-ms="0">
-    </test> <!-- logout test -->
-    <test started-at="2023-05-15T19:27:50 EDT" name="verifyDashboard" finished-at="2023-05-15T19:28:00 EDT" duration-ms="9489">
-      <class name="us.piit.VerifyDashboard">
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:us.piit.VerifyDashboard@12bfd80d]" started-at="2023-05-15T19:27:50 EDT" name="setUp" finished-at="2023-05-15T19:27:55 EDT" duration-ms="4485" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:us.piit.LoginTest@24b6b8f6]" started-at="2023-05-18T18:36:57 EDT" name="setUp" finished-at="2023-05-18T18:37:01 EDT" duration-ms="3675" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -431,11 +292,310 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testDashboardLoadPage()[pri:0, instance:us.piit.VerifyDashboard@12bfd80d]" started-at="2023-05-15T19:27:55 EDT" name="testDashboardLoadPage" finished-at="2023-05-15T19:27:59 EDT" duration-ms="4217" status="PASS">
+        <test-method signature="missingPassword()[pri:0, instance:us.piit.LoginTest@24b6b8f6]" started-at="2023-05-18T18:37:01 EDT" name="missingPassword" finished-at="2023-05-18T18:37:14 EDT" duration-ms="13072" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- missingPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:us.piit.LoginTest@24b6b8f6]" started-at="2023-05-18T18:37:14 EDT" name="tearDown" finished-at="2023-05-18T18:37:14 EDT" duration-ms="688" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:us.piit.LoginTest@24b6b8f6]" started-at="2023-05-18T18:37:14 EDT" name="setUp" finished-at="2023-05-18T18:37:18 EDT" duration-ms="3512" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[11]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[113]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://freecrm.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validEmail()[pri:0, instance:us.piit.LoginTest@24b6b8f6]" started-at="2023-05-18T18:37:18 EDT" name="validEmail" finished-at="2023-05-18T18:37:31 EDT" duration-ms="12882" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchWindowException">
+            <message>
+              <![CDATA[no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=113.0.5672.94)
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4fb4639b39d012565c54c01b57fd7686, findElement {using=xpath, value=//div[contains(text(),'No items found')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.94, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\BOYBAN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:63748}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63748/devtoo..., se:cdpVersion: 113.0.5672.94, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4fb4639b39d012565c54c01b57fd7686]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=113.0.5672.94)
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4fb4639b39d012565c54c01b57fd7686, findElement {using=xpath, value=//div[contains(text(),'No items found')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.94, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\BOYBAN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:63748}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63748/devtoo..., se:cdpVersion: 113.0.5672.94, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4fb4639b39d012565c54c01b57fd7686
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+at com.sun.proxy.$Proxy33.getText(Unknown Source)
+at us.piit.base.CommonAPI.getElementText(CommonAPI.java:104)
+at us.piit.pages.HomePage.getHomePageHeader(HomePage.java:68)
+at us.piit.LoginTest.validEmail(LoginTest.java:45)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validEmail -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:us.piit.LoginTest@24b6b8f6]" started-at="2023-05-18T18:37:31 EDT" name="tearDown" finished-at="2023-05-18T18:37:31 EDT" duration-ms="629" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- us.piit.LoginTest -->
+    </test> <!-- login test -->
+    <test started-at="2023-05-18T18:37:32 EDT" name="logout test" finished-at="2023-05-18T18:37:32 EDT" duration-ms="0">
+    </test> <!-- logout test -->
+    <test started-at="2023-05-18T18:37:32 EDT" name="verifyDashboard" finished-at="2023-05-18T18:38:05 EDT" duration-ms="33288">
+      <class name="us.piit.VerifyDashboard">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:us.piit.VerifyDashboard@650eab8]" started-at="2023-05-18T18:37:32 EDT" name="setUp" finished-at="2023-05-18T18:37:35 EDT" duration-ms="3370" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[11]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[113]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://freecrm.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="createNewTask()[pri:0, instance:us.piit.VerifyDashboard@650eab8]" started-at="2023-05-18T18:37:35 EDT" name="createNewTask" finished-at="2023-05-18T18:37:58 EDT" duration-ms="22753" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(), 'Tasks')]"}
+  (Session info: chrome=113.0.5672.94)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1d673fee8bafe58ce09431188e3323ff, findElement {using=xpath, value=//span[contains(text(), 'Tasks')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.94, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\BOYBAN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:63792}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63792/devtoo..., se:cdpVersion: 113.0.5672.94, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1d673fee8bafe58ce09431188e3323ff]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(), 'Tasks')]"}
+  (Session info: chrome=113.0.5672.94)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1d673fee8bafe58ce09431188e3323ff, findElement {using=xpath, value=//span[contains(text(), 'Tasks')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.94, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\BOYBAN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:63792}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63792/devtoo..., se:cdpVersion: 113.0.5672.94, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1d673fee8bafe58ce09431188e3323ff
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+at com.sun.proxy.$Proxy33.click(Unknown Source)
+at us.piit.base.CommonAPI.clickOn(CommonAPI.java:107)
+at us.piit.pages.HomePage.clickOnTaskMenuItem(HomePage.java:62)
+at us.piit.VerifyDashboard.createNewTask(VerifyDashboard.java:64)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewTask -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:us.piit.VerifyDashboard@650eab8]" started-at="2023-05-18T18:37:58 EDT" name="tearDown" finished-at="2023-05-18T18:37:58 EDT" duration-ms="693" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:us.piit.VerifyDashboard@650eab8]" started-at="2023-05-18T18:37:58 EDT" name="setUp" finished-at="2023-05-18T18:38:01 EDT" duration-ms="3107" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[11]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[113]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://freecrm.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testDashboardLoadPage()[pri:0, instance:us.piit.VerifyDashboard@650eab8]" started-at="2023-05-18T18:38:01 EDT" name="testDashboardLoadPage" finished-at="2023-05-18T18:38:04 EDT" duration-ms="2702" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDashboardLoadPage -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:us.piit.VerifyDashboard@12bfd80d]" started-at="2023-05-15T19:27:59 EDT" name="tearDown" finished-at="2023-05-15T19:28:00 EDT" duration-ms="786" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:us.piit.VerifyDashboard@650eab8]" started-at="2023-05-18T18:38:04 EDT" name="tearDown" finished-at="2023-05-18T18:38:05 EDT" duration-ms="659" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
